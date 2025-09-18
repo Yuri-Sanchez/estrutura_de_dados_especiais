@@ -30,7 +30,7 @@ int desenfileirar(filacircular *p){
     }
     aux = p -> vet[p -> F];
     
-    if(p -> F == TAM - 1){
+    if(p -> F == TAM - 1){ 
         p -> F = 0;
     }else{
         p -> F++;
