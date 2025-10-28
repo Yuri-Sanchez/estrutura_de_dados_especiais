@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void insertionSort(int vetor [], int n){
+void insertionSort(int vetor [], int n){ 
     int i, j, chave;
     for (i = 1; i < n; i++){
         chave = vetor[i];
